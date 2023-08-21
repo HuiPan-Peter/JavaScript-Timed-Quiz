@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Major+Mono+Display&family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <title>JavaScript Timed Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">JavaScript Timed Quiz</h1>
+        <a class="header-content" id="high-score">View Highscores</a>
+        <h3 class="header-content" id="countdown">Time: <span id="count">60</span></h3>
+    </header>
+
+    <main class="container" id="big-box">
+        <div class="container" id="holder">
+            <p id="question">Question</p>
+        </div>
+        <div class="container" id="answer-holder"></div>
+        <div class="container" id="holder">
+            <p id="results"></p>
+        </div>
+
+    </main>
+    <script src="./assets/js/script.js"> </script>
+</body>
+
+</html>
